@@ -1,0 +1,753 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ACAML xmlns="urn:schemas-agilent-com:acaml15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Checksum Algorithm="MD5">
+		<Value>dvdtvbA1Lsq7KhmwrGVEVQ==</Value>
+	</Checksum>
+	<Doc ContentVersioned="false">
+		<DocID>dae2649d-6f2b-4c6b-8023-b3ef60c9d663</DocID>
+		<DocInfo>
+			<Description>Method ACAML</Description>
+			<CreatedByUser>2UA6162G35\msuser</CreatedByUser>
+			<CreatedByApplication>
+				<AgilentApp>
+					<Name>ChemStation</Name>
+					<Version>2.183.0.0</Version>
+				</AgilentApp>
+			</CreatedByApplication>
+			<CreationDate>2022-03-10T11:00:21.211-06:00</CreationDate>
+			<ClientName>2UA6162G35</ClientName>
+		</DocInfo>
+		<Content>
+			<MethodConfiguration xsi:type="MethodConfigurationType" id="98a4792c-d993-4e0c-bdcf-f4ca473bdcf7" ver="0">
+				<MethodDescription>
+					<Name>Method Configuration</Name>
+					<ID>Method_Configuration</ID>
+					<Section>
+						<Name>Acquisition Method</Name>
+						<ID>Acquisition_Method</ID>
+						<Section>
+							<Name>Binary Pump</Name>
+							<ID>G1312A</ID>
+							<Section>
+								<Name>Stroke A</Name>
+								<ID>StrokeA</ID>
+								<Parameter>
+									<Name>Automatic Stroke Calculation A</Name>
+									<ID>StrokeA_AutomaticStrokeCalculation</ID>
+									<Unit />
+									<Value>Yes</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>Stroke B</Name>
+								<ID>StrokeB</ID>
+								<Parameter>
+									<Name>Automatic Stroke Calculation B</Name>
+									<ID>StrokeB_AutomaticStrokeCalculation</ID>
+									<Unit />
+									<Value>Yes</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>Compress A</Name>
+								<ID>CompressA</ID>
+								<Parameter>
+									<Name>Compressibility Mode A</Name>
+									<ID>CompressA_CompressibilityMode</ID>
+									<Unit />
+									<Value>Compressibility Value Set</Value>
+								</Parameter>
+								<Parameter>
+									<Name>Compressibility A</Name>
+									<ID>CompressA_CompressibilityValueSet</ID>
+									<Unit>10e-6/bar</Unit>
+									<Value>50</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>Compress B</Name>
+								<ID>CompressB</ID>
+								<Parameter>
+									<Name>Compressibility Mode B</Name>
+									<ID>CompressB_CompressibilityMode</ID>
+									<Unit />
+									<Value>Compressibility Value Set</Value>
+								</Parameter>
+								<Parameter>
+									<Name>Compressibility B</Name>
+									<ID>CompressB_CompressibilityValueSet</ID>
+									<Unit>10e-6/bar</Unit>
+									<Value>115</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>Stop Time</Name>
+								<ID>StopTime</ID>
+								<Parameter>
+									<Name>Stoptime Mode</Name>
+									<ID>StopTime_StopTimeMode</ID>
+									<Unit />
+									<Value>Time set</Value>
+								</Parameter>
+								<Parameter>
+									<Name>Stoptime</Name>
+									<ID>StopTime_StopTimeValue</ID>
+									<Unit>min</Unit>
+									<Value>0.70</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>Post Time</Name>
+								<ID>PostTime</ID>
+								<Parameter>
+									<Name>Posttime Mode</Name>
+									<ID>PostTime_PostTimeMode</ID>
+									<Unit />
+									<Value>Off</Value>
+								</Parameter>
+							</Section>
+							<Parameter>
+								<Name>Flow</Name>
+								<ID>Flow</ID>
+								<Unit>mL/min</Unit>
+								<Value>0.400</Value>
+							</Parameter>
+							<Parameter>
+								<Name>Low Pressure Limit</Name>
+								<ID>LowPressureLimit</ID>
+								<Unit>bar</Unit>
+								<Value>0.00</Value>
+							</Parameter>
+							<Parameter>
+								<Name>High Pressure Limit</Name>
+								<ID>HighPressureLimit</ID>
+								<Unit>bar</Unit>
+								<Value>400.00</Value>
+							</Parameter>
+							<Parameter>
+								<Name>Maximum Flow Gradient</Name>
+								<ID>MaximumFlowRamp</ID>
+								<Unit>mL/min²</Unit>
+								<Value>100.000</Value>
+							</Parameter>
+							<Table>
+								<Name>Solvent Composition</Name>
+								<ID>SolventComposition</ID>
+								<Row>
+									<Parameter>
+										<Name>Channel</Name>
+										<ID>SolventComposition_Channel</ID>
+										<Unit />
+										<Value>A</Value>
+									</Parameter>
+									<Parameter>
+										<Name>Name 1</Name>
+										<ID>SolventComposition_Channel1UserName</ID>
+										<Unit />
+										<Value />
+									</Parameter>
+									<Parameter>
+										<Name>Used</Name>
+										<ID>SolventComposition_Used</ID>
+										<Unit />
+										<Value>Yes</Value>
+									</Parameter>
+									<Parameter>
+										<Name>Percent</Name>
+										<ID>SolventComposition_Percentage</ID>
+										<Unit>%</Unit>
+										<Value>100.0</Value>
+									</Parameter>
+								</Row>
+								<Row>
+									<Parameter>
+										<Name>Channel</Name>
+										<ID>SolventComposition_Channel</ID>
+										<Unit />
+										<Value>B</Value>
+									</Parameter>
+									<Parameter>
+										<Name>Name 1</Name>
+										<ID>SolventComposition_Channel1UserName</ID>
+										<Unit />
+										<Value />
+									</Parameter>
+									<Parameter>
+										<Name>Used</Name>
+										<ID>SolventComposition_Used</ID>
+										<Unit />
+										<Value>No</Value>
+									</Parameter>
+								</Row>
+							</Table>
+							<Table>
+								<Name>Timetable</Name>
+								<ID>Timetable</ID>
+								<Row>
+									<Parameter>
+										<Name>Time</Name>
+										<ID>Time</ID>
+										<Unit>min</Unit>
+										<Value>20.00</Value>
+									</Parameter>
+									<Parameter>
+										<Name>A</Name>
+										<ID>PercentA</ID>
+										<Unit>%</Unit>
+										<Value>---</Value>
+									</Parameter>
+									<Parameter>
+										<Name>B</Name>
+										<ID>PercentB</ID>
+										<Unit>%</Unit>
+										<Value>---</Value>
+									</Parameter>
+									<Parameter>
+										<Name>Flow</Name>
+										<ID>Flow_DisplayValue</ID>
+										<Unit>mL/min</Unit>
+										<Value>0.400</Value>
+									</Parameter>
+									<Parameter>
+										<Name>Pressure</Name>
+										<ID>HighPressureLimit_DisplayValue</ID>
+										<Unit>bar</Unit>
+										<Value>400.00</Value>
+									</Parameter>
+								</Row>
+							</Table>
+						</Section>
+						<Section>
+							<Name>HiP Sampler</Name>
+							<ID>G1367A</ID>
+							<Section>
+								<Name>Auxiliary</Name>
+								<ID>Auxiliary</ID>
+								<Parameter>
+									<Name>Draw Speed</Name>
+									<ID>Auxiliary_DrawSpeed</ID>
+									<Unit>µL/min</Unit>
+									<Value>300.0</Value>
+								</Parameter>
+								<Parameter>
+									<Name>Eject Speed</Name>
+									<ID>Auxiliary_EjectSpeed</ID>
+									<Unit>µL/min</Unit>
+									<Value>300.0</Value>
+								</Parameter>
+								<Parameter>
+									<Name>Draw Position Offset</Name>
+									<ID>Auxiliary_DrawPositionOffset</ID>
+									<Unit>mm</Unit>
+									<Value>0.0</Value>
+								</Parameter>
+								<Parameter>
+									<Name>Wait Time After Drawing</Name>
+									<ID>Auxiliary_WaitTimeAfterDrawing</ID>
+									<Unit>s</Unit>
+									<Value>0.1</Value>
+								</Parameter>
+								<Parameter>
+									<Name>Sample Flush Out Factor</Name>
+									<ID>Auxiliary_SampleFlushOutFactor</ID>
+									<Unit />
+									<Value>5.0</Value>
+								</Parameter>
+								<Parameter>
+									<Name>Vial/Well bottom sensing</Name>
+									<ID>Auxiliary_DrawPositionDetectionEnabled</ID>
+									<Unit />
+									<Value>Yes</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>Injection</Name>
+								<ID>Injection</ID>
+								<Parameter>
+									<Name>Injection Mode</Name>
+									<ID>Injection_InjectionMode</ID>
+									<Unit />
+									<Value>Standard injection</Value>
+								</Parameter>
+								<Parameter>
+									<Name>Injection Volume</Name>
+									<ID>Injection_InjectionVolume</ID>
+									<Unit>µL</Unit>
+									<Value>2.00</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>High throughput</Name>
+								<ID>HighThroughput</ID>
+								<Section>
+									<Name>Overlapped Injection</Name>
+									<ID>HighThroughput_OverlappedInjection</ID>
+									<Parameter>
+										<Name>Enable Overlapped Injection</Name>
+										<ID>HighThroughput_OverlappedInjection_OverlapEnabled</ID>
+										<Unit />
+										<Value>No</Value>
+									</Parameter>
+								</Section>
+								<Parameter>
+									<Name>Automatic Delay Volume Reduction</Name>
+									<ID>HighThroughput_ValveToBypassAfterInjectionEnabled</ID>
+									<Unit />
+									<Value>No</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>Valve Switching</Name>
+								<ID>ValveSwitching</ID>
+								<Section>
+									<Name>Valve Switch Time 1</Name>
+									<ID>ValveSwitching_ValveSwitchTime1</ID>
+									<Parameter>
+										<Name>Switch Time 1 Enabled</Name>
+										<ID>ValveSwitching_ValveSwitchTime1_SwitchTimeEnabled</ID>
+										<Unit />
+										<Value>No</Value>
+									</Parameter>
+								</Section>
+								<Section>
+									<Name>Valve Switch Time 2</Name>
+									<ID>ValveSwitching_ValveSwitchTime2</ID>
+									<Parameter>
+										<Name>Switch Time 2 Enabled</Name>
+										<ID>ValveSwitching_ValveSwitchTime2_SwitchTimeEnabled</ID>
+										<Unit />
+										<Value>No</Value>
+									</Parameter>
+								</Section>
+								<Section>
+									<Name>Valve Switch Time 3</Name>
+									<ID>ValveSwitching_ValveSwitchTime3</ID>
+									<Parameter>
+										<Name>Switch Time 3 Enabled</Name>
+										<ID>ValveSwitching_ValveSwitchTime3_SwitchTimeEnabled</ID>
+										<Unit />
+										<Value>No</Value>
+									</Parameter>
+								</Section>
+								<Section>
+									<Name>Valve Switch Time 4</Name>
+									<ID>ValveSwitching_ValveSwitchTime4</ID>
+									<Parameter>
+										<Name>Switch Time 4 Enabled</Name>
+										<ID>ValveSwitching_ValveSwitchTime4_SwitchTimeEnabled</ID>
+										<Unit />
+										<Value>No</Value>
+									</Parameter>
+								</Section>
+								<Parameter>
+									<Name>Valve Movements</Name>
+									<ID>ValveSwitching_ValveMovements</ID>
+									<Unit />
+									<Value>0</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>Stop Time</Name>
+								<ID>StopTime</ID>
+								<Parameter>
+									<Name>Stoptime Mode</Name>
+									<ID>StopTime_StopTimeMode</ID>
+									<Unit />
+									<Value>As pump/No limit</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>Post Time</Name>
+								<ID>PostTime</ID>
+								<Parameter>
+									<Name>Posttime Mode</Name>
+									<ID>PostTime_PostTimeMode</ID>
+									<Unit />
+									<Value>Off</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>Timetable</Name>
+								<ID>Timetable</ID>
+								<Table>
+									<Name>Timetable</Name>
+									<ID>Timetable_TimetableEntry</ID>
+								</Table>
+							</Section>
+						</Section>
+						<Section>
+							<Name>Column Comp.</Name>
+							<ID>G1316A</ID>
+							<Section>
+								<Name>Left Temperature Control</Name>
+								<ID>LeftTemperatureControl</ID>
+								<Section>
+									<Name>Enable Analysis Left Temperature</Name>
+									<ID>LeftTemperatureControl_NotReadyLimit</ID>
+									<Parameter>
+										<Name>Enable Analysis Left Temperature On</Name>
+										<ID>LeftTemperatureControl_NotReadyLimit_NotReadyLimitOn</ID>
+										<Unit />
+										<Value>Yes</Value>
+									</Parameter>
+									<Parameter>
+										<Name>Enable Analysis Left Temperature Value</Name>
+										<ID>LeftTemperatureControl_NotReadyLimit_NotReadyLimitValue</ID>
+										<Unit>°C</Unit>
+										<Value>0.8</Value>
+									</Parameter>
+								</Section>
+								<Parameter>
+									<Name>Temperature Control Mode</Name>
+									<ID>LeftTemperatureControl_TemperatureControlMode</ID>
+									<Unit />
+									<Value>Not Controlled</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>Right Temperature Control</Name>
+								<ID>RightTemperatureControl</ID>
+								<Section>
+									<Name>Enable Analysis Right Temperature</Name>
+									<ID>RightTemperatureControl_NotReadyLimit</ID>
+									<Parameter>
+										<Name>Enable Analysis Right Temperature On</Name>
+										<ID>RightTemperatureControl_NotReadyLimit_NotReadyLimitOn</ID>
+										<Unit />
+										<Value>Yes</Value>
+									</Parameter>
+									<Parameter>
+										<Name>Enable Analysis Right Temperature Value</Name>
+										<ID>RightTemperatureControl_NotReadyLimit_NotReadyLimitValue</ID>
+										<Unit>°C</Unit>
+										<Value>0.8</Value>
+									</Parameter>
+								</Section>
+								<Parameter>
+									<Name>Right temperature Control Mode</Name>
+									<ID>RightTemperatureControl_TemperatureControlMode</ID>
+									<Unit />
+									<Value>Combined</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>Stop Time</Name>
+								<ID>StopTime</ID>
+								<Parameter>
+									<Name>Stoptime Mode</Name>
+									<ID>StopTime_StopTimeMode</ID>
+									<Unit />
+									<Value>As pump/injector</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>Post Time</Name>
+								<ID>PostTime</ID>
+								<Parameter>
+									<Name>Posttime Mode</Name>
+									<ID>PostTime_PostTimeMode</ID>
+									<Unit />
+									<Value>Off</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>Timetable</Name>
+								<ID>Timetable</ID>
+								<Table>
+									<Name>Timetable</Name>
+									<ID>Timetable_TimetableEntry</ID>
+								</Table>
+							</Section>
+							<Parameter>
+								<Name>Valve Position</Name>
+								<ID>ColumnValvePosition</ID>
+								<Unit />
+								<Value>Position 2 (Port 1 -&gt; 6)</Value>
+							</Parameter>
+						</Section>
+						<Section>
+							<Name>VWD</Name>
+							<ID>G1314A</ID>
+							<Section>
+								<Name>Analog Output</Name>
+								<ID>AnalogOutput</ID>
+								<Parameter>
+									<Name>Analog Zero Offset</Name>
+									<ID>AnalogOutput_AnalogZero</ID>
+									<Unit>%</Unit>
+									<Value>5</Value>
+								</Parameter>
+								<Parameter>
+									<Name>Analog Attenuation</Name>
+									<ID>AnalogOutput_AnalogAtt</ID>
+									<Unit>mAU</Unit>
+									<Value>1000</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>Signals</Name>
+								<ID>Signals</ID>
+								<Section>
+									<Name>Signal</Name>
+									<ID>Signals_Signal</ID>
+									<Parameter>
+										<Name>Acquire Signal</Name>
+										<ID>Signals_Signal_UseSignal</ID>
+										<Unit />
+										<Value>Yes</Value>
+									</Parameter>
+									<Parameter>
+										<Name>Signal ID</Name>
+										<ID>Signals_Signal_ID</ID>
+										<Unit />
+										<Value>Signal A</Value>
+									</Parameter>
+									<Parameter>
+										<Name>Signal Wavelength</Name>
+										<ID>Signals_Signal_Wavelength</ID>
+										<Unit>nm</Unit>
+										<Value>257</Value>
+									</Parameter>
+								</Section>
+							</Section>
+							<Section>
+								<Name>Prepare Mode</Name>
+								<ID>PrepareMode</ID>
+								<Parameter>
+									<Name>Margin for negative Absorbance</Name>
+									<ID>PrepareMode_Headroom</ID>
+									<Unit>mAU</Unit>
+									<Value>100</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>Autobalance</Name>
+								<ID>PrepareAutomation</ID>
+								<Parameter>
+									<Name>Autobalance Prerun</Name>
+									<ID>PrepareAutomation_DoPrepRunBalance</ID>
+									<Unit />
+									<Value>Yes</Value>
+								</Parameter>
+								<Parameter>
+									<Name>Autobalance Postrun</Name>
+									<ID>PrepareAutomation_DoPostRunBalance</ID>
+									<Unit />
+									<Value>No</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>Scan Variables</Name>
+								<ID>ScanVariables</ID>
+								<Parameter>
+									<Name>Scan Range From</Name>
+									<ID>ScanVariables_WavelengthFrom</ID>
+									<Unit>nm</Unit>
+									<Value>190</Value>
+								</Parameter>
+								<Parameter>
+									<Name>Scan Range To</Name>
+									<ID>ScanVariables_WavelengthTo</ID>
+									<Unit>nm</Unit>
+									<Value>400</Value>
+								</Parameter>
+								<Parameter>
+									<Name>Scan Range Step</Name>
+									<ID>ScanVariables_WavelengthStep</ID>
+									<Unit>nm</Unit>
+									<Value>2</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>Stoptime</Name>
+								<ID>StopTime</ID>
+								<Parameter>
+									<Name>Stoptime Mode</Name>
+									<ID>StopTime_StopTimeMode</ID>
+									<Unit />
+									<Value>As pump/injector</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>Posttime</Name>
+								<ID>PostTime</ID>
+								<Parameter>
+									<Name>Posttime Mode</Name>
+									<ID>PostTime_PostTimeMode</ID>
+									<Unit />
+									<Value>Off</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>Timetable</Name>
+								<ID>Timetable</ID>
+								<Table>
+									<Name>Timetable</Name>
+									<ID>Timetable_TimetableEntry</ID>
+								</Table>
+							</Section>
+							<Parameter>
+								<Name>Signal Peakwidth</Name>
+								<ID>Peakwidth</ID>
+								<Unit />
+								<Value>&gt; 0.1 min (2 s resp. time) (3.43 Hz)</Value>
+							</Parameter>
+							<Parameter>
+								<Name>Analog Output Source Channel</Name>
+								<ID>AnalogOutputSourceChannel</ID>
+								<Unit />
+								<Value>1</Value>
+							</Parameter>
+							<Parameter>
+								<Name>Signal Polarity</Name>
+								<ID>Polarity</ID>
+								<Unit />
+								<Value>Positive (+)</Value>
+							</Parameter>
+							<Parameter>
+								<Name>Lamp on required for aquisition</Name>
+								<ID>UVLampRequired</ID>
+								<Unit />
+								<Value>Yes</Value>
+							</Parameter>
+							<Parameter>
+								<Name>Acquire Signal without Reference</Name>
+								<ID>AcquireRawSignal</ID>
+								<Unit />
+								<Value>No</Value>
+							</Parameter>
+							<Parameter>
+								<Name>Acquire Reference only</Name>
+								<ID>AcquireRawReference</ID>
+								<Unit />
+								<Value>No</Value>
+							</Parameter>
+						</Section>
+						<Section>
+							<Name>Fraction Collector</Name>
+							<ID>G1364C</ID>
+							<Section>
+								<Name>Fraction Trigger Mode</Name>
+								<ID>FractionTriggerMode</ID>
+								<Parameter>
+									<Name>Fraction Trigger Mode</Name>
+									<ID>FractionTriggerMode_Mode</ID>
+									<Unit />
+									<Value>Off</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>Fill Volume</Name>
+								<ID>FillVolume</ID>
+								<Parameter>
+									<Name>Fill Volume Mode</Name>
+									<ID>FillVolume_Mode</ID>
+									<Unit />
+									<Value>As Configured</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>Peak Detectors</Name>
+								<ID>PeakDetectors</ID>
+								<Table>
+									<Name>Peak Detector</Name>
+									<ID>PeakDetectors_PeakDetector</ID>
+									<Row>
+										<Parameter>
+											<Name>Detector type with serial number</Name>
+											<ID>PeakDetectors_PeakDetector_DetectorWithSerialNumber</ID>
+											<Unit />
+											<Value>G1314A:DE60556073</Value>
+										</Parameter>
+										<Parameter>
+											<Name>Unit</Name>
+											<ID>PeakDetectors_PeakDetector_Unit</ID>
+											<Unit />
+											<Value>mAU</Value>
+										</Parameter>
+										<Parameter>
+											<Name>Up Slope</Name>
+											<ID>PeakDetectors_PeakDetector_UpSlope</ID>
+											<Unit />
+											<Value>5.00</Value>
+										</Parameter>
+										<Parameter>
+											<Name>Down Slope</Name>
+											<ID>PeakDetectors_PeakDetector_DownSlope</ID>
+											<Unit />
+											<Value>5.00</Value>
+										</Parameter>
+										<Parameter>
+											<Name>Threshold</Name>
+											<ID>PeakDetectors_PeakDetector_Threshold</ID>
+											<Unit />
+											<Value>5.000</Value>
+										</Parameter>
+										<Parameter>
+											<Name>Upper Threshold</Name>
+											<ID>PeakDetectors_PeakDetector_UpperThreshold</ID>
+											<Unit />
+											<Value>3000.000</Value>
+										</Parameter>
+										<Parameter>
+											<Name>Mode</Name>
+											<ID>PeakDetectors_PeakDetector_Mode</ID>
+											<Unit />
+											<Value>Off</Value>
+										</Parameter>
+									</Row>
+								</Table>
+							</Section>
+							<Section>
+								<Name>Stop Time</Name>
+								<ID>StopTime</ID>
+								<Parameter>
+									<Name>Stoptime Mode</Name>
+									<ID>StopTime_StopTimeMode</ID>
+									<Unit />
+									<Value>As pump/injector</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>Post Time</Name>
+								<ID>PostTime</ID>
+								<Parameter>
+									<Name>Posttime Mode</Name>
+									<ID>PostTime_PostTimeMode</ID>
+									<Unit />
+									<Value>Off</Value>
+								</Parameter>
+							</Section>
+							<Section>
+								<Name>Timetable</Name>
+								<ID>Timetable</ID>
+								<Table>
+									<Name>Timetable</Name>
+									<ID>Timetable_TimetableEntry</ID>
+								</Table>
+							</Section>
+							<Parameter>
+								<Name>Peak Detector Mode</Name>
+								<ID>PeakDetectorMode</ID>
+								<Unit />
+								<Value>at least one peak detector</Value>
+							</Parameter>
+							<Parameter>
+								<Name>Rinse Needle At Start Of Collection</Name>
+								<ID>RinseNeedleAtStartOfCollection</ID>
+								<Unit />
+								<Value>No</Value>
+							</Parameter>
+							<Parameter>
+								<Name>Rinse Needle Between Collection</Name>
+								<ID>RinseNeedleBetweenCollection</ID>
+								<Unit />
+								<Value>No</Value>
+							</Parameter>
+						</Section>
+					</Section>
+				</MethodDescription>
+			</MethodConfiguration>
+		</Content>
+	</Doc>
+</ACAML>
